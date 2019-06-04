@@ -1,0 +1,107 @@
+.app {
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(to right, #cb2d3e , #ef473a);
+}
+.app-box {
+  width: 25vw;
+  margin: 0 auto;
+}
+h1 {
+  margin: 0;
+  padding: 25px 0;
+  font-family: 'Roboto', Courier, monospace;
+  color: #fff;
+}
+.search-input {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0px;
+  box-sizing: border-box;
+  padding: 10px;
+}
+.search-buttons {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15px;
+}
+.search-button {
+width: 45%;
+margin: 0;
+padding: 15px;
+border: 1px solid #fff;
+background: transparent;
+color: #fff;
+font-family: 'Roboto';
+font-size: 13px;
+text-transform: uppercase;
+cursor: pointer;
+transition: .3s;
+border-radius: 6px;
+}
+.search-button:hover {
+color: black;
+background-color: #fff;
+}
+.list {
+  margin-top: 30px;
+}
+.city-div {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 5px;
+  border-bottom: 1px white dotted;
+  margin-top: 20px;
+}
+.city-link {
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  transition: .3s;
+}
+.city-link:hover {
+  color: #000;
+}
+.city-delete {
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 3px 7px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: .3s;
+  border-radius: 3px;
+}
+.city-delete:hover {
+  color: #fff;
+  background-color: red;
+  border: 1px solid #000;
+}
+.title {
+  display: flex;
+  padding-top: 20px;
+}
+.title-text {
+  font-size: 35px;
+  color: #fff;
+  font-family: "Roboto"
+}
+.city-img, .temp-div {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+}
+.white {
+  color: #fff;
+}
+.special-pb {
+  padding-bottom: 15px;
+}
+.back-btn {
+  margin-top: 30px;
+}
+.back-btn .search-button {
+  text-decoration: none;
+}
